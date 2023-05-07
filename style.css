@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} /*Menu header-Grazy*/
+body {
+  margin: 1em;
+  background-color: white;
+}
+/*Header*/
+header {
+  width: 100%;
+  height: 100%;
+  background-color: #ffcf00;
+}
+header#cabeçalho {
+  height: 30vh;
+}
+div.imagemLogo {
+  width: 22vh;
+  height: 26vh;
+}
+.logo {
+  width: 24vh;
+  padding: 10px;
+}
+nav.menu {
+  width: 53%;
+  margin-left: 40%;
+  margin-top: -4em;
+}
+ul.ulMenu {
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+}
+.liMenu {
+  font-family: "monospace";
+  margin: 1em;
+}
+
+section.corpoInicial {
+  background-color: #f4b418;
+  margin-left: 19em;
+  margin-top: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  border-radius: 19px;
+  width: 50%;
+}
+
+#corpo {
+  margin-left: 1em;
+  width: 100%;
+}
+.rastreio {
+  width: 42%;
+}
+.dados {
+  display: block;
+  width: 35%;
+  margin-left: 10px;
+}
+::placeholder {
+  color: white;
+  font-size: uppercase;
+}
+input {
+  background-color: #f4b418;
+  border: 1px solid rgb(133, 128, 128);
+  height: 2em;
+}
+h2 {
+  font-size: bold;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 15px;
+  padding: 0.1em;
+  width: 36%;
+  margin: 1em;
+}
+
+.diasSemana {
+  margin-left: 0.1em;
+}
+#lojas {
+  width: 44%;
+}
+label.loja1 {
+  margin: 1em;
+}
+form#botãoEnviar {
+  width: 13%;
+  margin-left: 72%;
+}
+.botao {
+  font-weight: bold;
+  border-radius: 42px;
+  border: blue solid;
+  background-color: #0f2398;
+  color: white;
+  margin-left: 1em;
+  width: 5em;
+  height: 5%;
+}
+main {
+  margin: 1em;
+}
+div.caixa1 {
+  width: 100vh;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  margin-left: 19em;
+}
+p.texto1 {
+  width: 50%;
+  height: 42%;
+  background-color: #f4b418;
+  margin: 2em;
+  padding: 1em;
+  text-align: center;
+}
+div.caixa2 {
+  background-color: #f4b418;
+  text-align: center;
+  width: 50%;
+  height: 42%;
+  margin: 2em;
+  padding: 1em;
+}
+/*footer*/
+footer {
+  width: 100%;
+  height: 39vh;
+  background-color: #f4b418;
+  display: flex;
+  justify-content: space-between;
+}
+img.imgCaminhao {
+  width: 26vh;
+  height: 29vh;
+  margin-top: 5em;
+  margin-left: 2em;
+}
+.ulContato {
+  width: 13%;
+  height: 12em;
+  text-align: center;
+  list-style: none;
+  margin: 3em;
+}
+.loja {
+  width: 88%;
+  height: 15%;
+  margin: 1em;
+  padding: 1em;
+}
+
+.ulRede {
+  width: 10%;
+  height: 10vw;
+  list-style: none;
+  margin-top: 5em;
+  margin-left: 7em;
+}
+.sociais {
+  width: 88%;
+  height: 15%;
+  margin: 1em;
+}
+
+p.assinatura {
+  font-family: "Times New Roman";
+  width: 17%;
+  height: 0%;
+  margin-top: 8em;
+  margin-right: 9%;
+}
